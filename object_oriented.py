@@ -6,7 +6,6 @@
 import pandas as pd
 from team import Team
 from season import Season
-from stats import Stats
 
 NHL = pd.read_csv("NHL.csv")
 win_loss = pd.read_csv("team_wins_losses.csv")
